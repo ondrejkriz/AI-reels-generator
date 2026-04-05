@@ -1,4 +1,4 @@
-# did-you-know-reels-generator
+# AI reels generator
 
 Production-friendly MVP for generating original vertical "Did you know...?" short videos for YouTube Shorts, TikTok, and Instagram Reels.
 
