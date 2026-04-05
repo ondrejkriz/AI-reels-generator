@@ -1,6 +1,6 @@
 # AI reels generator
 
-Production-friendly MVP for generating original vertical "Did you know...?" short videos for YouTube Shorts, TikTok, and Instagram Reels.
+Modular pipeline for generating original vertical "Did you know...?" short videos for YouTube Shorts, TikTok, and Instagram Reels.
 
 The project is designed as a local-first, API-optional pipeline. It can run in `dry-run` mode without external API keys and still produce scripts, scene plans, prompts, subtitles, metadata, and JSON reports.
 
