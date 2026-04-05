@@ -1,0 +1,64 @@
+app:
+  language: "cs"
+  default_output_dir: "./output"
+  log_file: "./logs/app.log"
+  max_duration_seconds: 35
+  min_duration_seconds: 15
+  target_platforms:
+    - youtube_shorts
+    - tiktok
+    - instagram_reels
+
+provider:
+  default: "mock"
+  temperature: 0.7
+  max_tokens: 900
+  request_timeout_seconds: 45
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  default_scene_duration: 4.0
+  title_safe_margin: 110
+  subtitle_safe_margin: 220
+  background_colors:
+    - "#101820"
+    - "#19323c"
+    - "#2d3047"
+    - "#275d63"
+  transition_text: "Věděli jste, že...?"
+
+scoring:
+  hook_weight: 0.25
+  brevity_weight: 0.15
+  surprise_weight: 0.2
+  duration_weight: 0.15
+  readability_weight: 0.1
+  scene_diversity_weight: 0.15
+  target_word_count_min: 35
+  target_word_count_max: 85
+
+content:
+  cta: "Sleduj pro víc."
+  fact_status_without_validation: "needs_review"
+  supported_topics:
+    - animals
+    - history
+    - science
+    - space
+    - bizarre facts
+    - dark facts
+
+sources:
+  wikipedia:
+    enabled: true
+    language: "cs"
+    timeout_seconds: 10
+    user_agent: "did-you-know-reels-generator/0.1"
+
+tts:
+  engine: "windows_sapi"
+  voice_name: ""
+  rate: 0
+  volume: 100

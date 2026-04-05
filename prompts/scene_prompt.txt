@@ -1,0 +1,2 @@
+Rozděl script do krátkých vizuálně odlišných scén vhodných pro 9:16 video.
+Každá scéna musí mít krátký voiceover segment, overlay text a vizuální prompt.
